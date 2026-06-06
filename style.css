@@ -1,0 +1,65 @@
+ *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+ font-family: "Playfair Display";
+ }
+ .navbar .nav-link {
+        text-transform: uppercase;
+        color: #6c7781;
+        font-weight: 500;
+ }
+
+#custom {
+    color: #521604;
+    font-weight: 700; 
+ }
+
+ #menu button {
+    border: none;
+    background-color: #5d4037;
+    color: white;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+ }
+
+  #menu button:hover {
+    background-color: white;
+    color: #521604;
+  }
+
+  .container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+.navbar-brand {
+    color: #521604;
+}
+
+
+
+.custom-text p:nth-of-type(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #6c757d;
+
+}
+.custom-text span {
+  background-color:#D4A373 ;
+  color: white;
+}
+.custom-text h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+.custom-text p:nth-of-type(2) {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
